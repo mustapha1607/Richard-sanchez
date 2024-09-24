@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-text {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
+
+.nav-text li {
+    display: inline-block;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-text a:hover {
+    color: #007bff;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search-box button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.fa-search {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('./asset/girl-.png') no-repeat center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: left;
+}
+
+.content {
+    color: white;
+    text-align: left;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero .highlight {
+    color: #00ffd5;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    background: linear-gradient(45deg, #00ffd5, #a855f7);
+    box-shadow: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn .hero .btn:hover {
+    opacity: 0.8;
+}
+
+.hero .btn .follow {
+    background-color: #6c5ce7;
+    color: #fff;
+}
+
+.hero .btn .about {
+    background-color: #00ffd5;
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: end;
+}
+
+.fab {
+    color: grey;
+}

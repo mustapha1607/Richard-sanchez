@@ -105,7 +105,7 @@ h1 {
     margin-right: 10px;
     transition: background-color 0.3s ease;
     cursor: pointer;
-    background: linear-gradient(45deg, #00ffd5, #a855f7);
+    background: linear-gradient(45deg, #007bff, #333);
     box-shadow: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
